@@ -1,0 +1,42 @@
+[
+  {
+    "task_id": "CONTRACT-001",
+    "domain": "Contract Law",
+    "task_type": "Clause Extraction (Limitation of Liability)",
+    "question": "What is the monetary cap on the 'Supplier's' total liability under the 'Master Services Agreement'?",
+    "contexts": [
+      "MASTER SERVICES AGREEMENT. This Agreement is made between 'Client' and 'Supplier'. ... 8. INDEMNIFICATION. Supplier shall indemnify, defend, and hold harmless Client from and against any and all claims... 9. LIMITATION OF LIABILITY. 9.1. Consequential Damages Waiver. NEITHER PARTY SHALL BE LIABLE TO THE OTHER FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES (INCLUDING LOSS OF PROFITS) ARISING FROM THIS AGREEMENT. 9.2. Liability Cap. EXCEPT FOR SUPPLIER'S OBLIGATIONS UNDER SECTION 8 (INDEMNIFICATION) OR A BREACH OF SECTION 10 (CONFIDENTIALITY), THE TOTAL AGGREGATE LIABILITY OF SUPPLIER TO CLIENT FOR ALL CLAIMS OF ANY KIND ARISING OUT OF OR RELATING TO THIS AGREEMENT SHALL NOT EXCEED THE TOTAL FEES PAID BY CLIENT TO SUPPLIER IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM. 9.3. Exclusions. The limitations in Section 9.2 shall not apply to damages caused by Supplier's gross negligence or willful misconduct."
+    ],
+    "ground_truth_answer": "The Supplier's total aggregate liability is capped at the total fees paid by the Client to the Supplier in the twelve (12) months preceding the claim. This cap does not apply to indemnification obligations, confidentiality breaches, gross negligence, or willful misconduct."
+  },
+  {
+    "task_id": "CONTRACT-002",
+    "domain": "Contract Law",
+    "task_type": "Clause Interpretation (Termination for Convenience)",
+    "question": "Can the Client terminate the agreement for any reason, and if so, what are their obligations?",
+    "contexts": [
+      "11. TERM AND TERMINATION. 11.1. Term. This Agreement shall commence on the Effective Date and continue for three (3) years... 11.2. Termination for Cause. Either party may terminate this Agreement upon thirty (30) days' written notice of a material breach by the other party... 11.3. Termination for Convenience. Client shall have the right to terminate this Agreement, in whole or in part, for its convenience and without cause, by providing Supplier with sixty (60) days' prior written notice. In the event of such a termination, Client shall pay Supplier for all Services performed and accepted through the effective date of termination."
+    ],
+    "ground_truth_answer": "Yes, the Client can terminate the agreement for convenience (without cause) by providing sixty (60) days' prior written notice. If they do so, they must pay the Supplier for all services performed and accepted up to the termination date."
+  },
+  {
+    "task_id": "CASELAW-001",
+    "domain": "Case Law (U.S. Civil Procedure)",
+    "task_type": "Case Holding Analysis",
+    "question": "What was the Supreme Court's 'holding' in Ashcroft v. Iqbal regarding the standard for pleading?",
+    "contexts": [
+      "Ashcroft v. Iqbal, 556 U.S. 662 (2009): This case further refined the pleading standard set forth in Bell Atlantic Corp. v. Twombly. The Court held that a complaint must contain sufficient factual matter, accepted as true, to 'state a claim to relief that is plausible on its face.' The Court clarified that this 'plausibility standard' is not a 'probability requirement,' but it asks for more than a sheer possibility that a defendant has acted unlawfully. It articulated a two-pronged approach: 1) A court must accept all factual allegations as true, but is 'not bound to accept as true a legal conclusion couched as a factual allegation.' 2) The court must then determine whether the well-pleaded factual allegations 'plausibly give rise to an entitlement to relief.' Conclusory statements of law or 'mere recitals of the elements of a cause of action, supported by mere conclusory statements' are not sufficient."
+    ],
+    "ground_truth_answer": "In Ashcroft v. Iqbal, the Supreme Court held that to survive a motion to dismiss, a complaint must state a 'plausible' claim for relief. This means the complaint must contain sufficient factual allegations (not just legal conclusions) that, when accepted as true, allow the court to reasonably infer that the defendant is liable for the alleged misconduct. Mere conclusory statements are insufficient."
+  },
+  {
+    "task_id": "COMPLIANCE-001",
+    "domain": "Data Privacy (GDPR)",
+    "task_type": "Statutory Reasoning",
+    "question": "I have a European customer. What specific, explicit rights do they have regarding their personal data under the GDPR?",
+    "contexts": [
+      "REGULATION (EU) 2016/679 (General Data Protection Regulation). ... Chapter 3: Rights of the data subject. ... Article 15: Right of access by the data subject. The data subject shall have the right to obtain from the controller confirmation as to whether or not personal data concerning him or her are being processed... Article 16: Right to rectification. The data subject shall have the right to obtain from the controller without undue delay the rectification of inaccurate personal data... Article 17: Right to erasure ('right to be forgotten'). The data subject shall have the right to obtain from the controller the erasure of personal data concerning him or her without undue delay... Article 18: Right to restriction of processing. ... Article 20: Right to data portability. The data subject shall have the right to receive the personal data concerning him or her, which he or she has provided to a controller, in a structured, commonly used and machine-readable format... Article 21: Right to object."
+    ],
+    "ground_truth_answer": "Under Chapter 3 of the GDPR, a data subject (your customer) has several explicit rights, including: the Right of Access (Art. 15), the Right to Rectification (Art. 16), the Right to Erasure or 'right to be forgotten' (Art. 17), the Right to Restriction of Processing (Art. 18), the Right to Data Portability (Art. 20), and the Right to Object (Art. 21)."
+  }
+]
