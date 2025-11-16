@@ -1,0 +1,15 @@
+ragas
+pandas
+datasets
+openai
+python-dotenv
+langchain-openai
+chromadb
+langchain
+pypdf
+dash
+langchain-community
+dash-bootstrap-components
+langchain-core
+langchain-chroma
+langchain-text-splitters
