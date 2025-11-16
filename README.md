@@ -10,7 +10,8 @@ It uses **LangChain**, **ChromaDB**, **Ragas**, and **Plotly Dash** to create a 
 
 The dashboard visualizes key RAG performance metrics, enabling in-depth analysis of failed questions, retrieval quality, and overall pipeline health.
 
-![RAG Evaluation Dashboard](assets/dashboard.png)
+<img width="1913" height="1043" alt="image" src="https://github.com/user-attachments/assets/ac6d9093-763d-4e2c-b8d8-5a4ba8c44e96" />
+
 
 > Add an image named `dashboard.png` inside the `assets/` folder for this image to display.
 
